@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* general sibiling selector*/
+        h2+div{
+            background-color: blue;
+        }
+        /*general sibiling selector*/
+            /* general sibiling selector */
+             h2 ~ div{
+                background-color: pink;
+            } 
+            /*child combinator */
+            /body>h2,
+            body>div{
+                background-color:red;
+            } */
+            /* descendant */
+            body div{
+                background-color: green;
+            }
+        
+    </style>
+</head>
+<body>
+    <div>first div of div</div>
+    <selector>div of section div</selector>
+    <h2>first heading h2</h2>
+    <h2>second heading h2</h2>
+    <div>second div of div</div>
+    <h2>third heading of h2</h2>
+</body>
+</html>
